@@ -7,7 +7,8 @@ export const PostsCollection: CollectionConfig = {
   fields: [
     {
       name: 'text',
-      type: 'text',
+      type: 'textarea',
+      required: true
     },
   ],
 };
